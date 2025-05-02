@@ -1,5 +1,7 @@
-const callback = () => { 
-    console.log('looged');
-}
-const observer=new Observeable()
-const promise = new Promise(callback)
+import { Observable } from "rxjs";
+
+const callback = () => {
+  console.log("looged");
+};
+const observer = new Observable();
+const promise = new Promise(callback);
